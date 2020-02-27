@@ -51,7 +51,9 @@ Press `Ctrl + C` (or `Cmd + C` on Mac) to quit the app.
 
 ### Modifying the input/ output file
 
-## Since this app is currently has no UI other than displaying the result in browser, you will need to get down to the source code in order to change the input file and or its contents.
+Since this app is currently has no UI other than displaying the result in browser, you will need to get down to the source code in order to change the input file and or its contents.
+
+---
 
 > :warning: The file contents shoud be line separated strings.
 
