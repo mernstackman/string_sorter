@@ -1,6 +1,6 @@
 # String Sorter
 
-This is a simple nodejs express app that perform file operation which is intended to sort names by its last names in `case-insensitive` way. At this moment, this app only support the operation to single file input. Not yet tested to process multiple files.
+This is a simple nodejs express app that perform file operation which is intended to sort names by their last names in `case-insensitive` way. At this moment, this app only support the operation to single file input. Not yet tested to process multiple files.
 
 ```
 At this moment, this app is using built in Javascript's `sort()` method to do the sorting operation.
