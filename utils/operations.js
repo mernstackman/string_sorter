@@ -5,6 +5,8 @@ const fileData = require("../edit_this");
 const sourceFile = fileData.sourceFile;
 const destinationFile = fileData.destinationFile;
 
+// Check if sourceFile file exists
+
 /* Store the sorted array to data variable */
 const data = sortByLastName(sourceFile);
 

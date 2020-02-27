@@ -14,9 +14,7 @@ class SortByLastIndex {
     const xLast = xArr[xArr.length - 1];
     const yLast = yArr[yArr.length - 1];
 
-    if (xLast < yLast) return -1;
-    if (xLast > yLast) return 1;
-    return 0;
+    return xLast.localeCompare(yLast, undefined, { sensitivity: "base" });
   }
 
   run() {
