@@ -1,0 +1,36 @@
+{
+  "name": "sort_string",
+  "version": "1.0.0",
+  "description": "Sort a list of people names by last names",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose false",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mernstackman/string_sorter.git"
+  },
+  "keywords": [
+    "javascript",
+    "string",
+    "sort",
+    "people",
+    "names",
+    "name"
+  ],
+  "author": "Ari Susanto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mernstackman/string_sorter/issues"
+  },
+  "homepage": "https://github.com/mernstackman/string_sorter#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "@types/jest": "^25.1.3",
+    "express": "^4.17.1",
+    "hbs": "^4.1.0"
+  }
+}
