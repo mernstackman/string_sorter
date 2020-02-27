@@ -53,19 +53,17 @@ Press `Ctrl + C` (or `Cmd + C` on Mac) to quit the app.
 
 Since this app is currently has no UI other than displaying the result in browser, you will need to get down to the source code in order to change the input file and or its contents.
 
-:warning: The file contents shoud be line separated strings.
+> :warning: The file contents shoud be line separated strings.
+
 **Example:**
 
 ```
- `
  The first line
  Second line
  The Third String
  The other string
  A Name of Something
  Quick brown fox
-`
-
 ```
 
 #### Modify file input's contents
@@ -90,7 +88,8 @@ You can tell this app to work with different `.txt` file name. Here is how to do
 2. Rename the file named `unsorted-names-list.txt` to your preference or place your own `.txt` file inside the root folder.
 3. Open file named `edit_this.js` and change the value of `destinationFile` property to your file path and then save it.
 
-:warning: You will need to restart the app manually in order to get the updated output. Since the hot reload feature is currently not being added to this app yet.
+> :warning: You will need to restart the app manually in order to get the updated output. Since the hot reload feature is currently not being added to this app yet.
+
 **Tips:**
 
 ```
